@@ -1,4 +1,5 @@
 ﻿using CalculationArea2DFigure;
+using ConsoleApp.CalculationArea2DFigure;
 
 namespace ConsoleApp
 {
@@ -14,6 +15,8 @@ namespace ConsoleApp
             Console.WriteLine(triangle.GetSquare());
 
             Console.WriteLine(triangle.GetHalfMeter());
+
+            Console.WriteLine(Shape.GetSquare(triangle));
         }
     }
 }
